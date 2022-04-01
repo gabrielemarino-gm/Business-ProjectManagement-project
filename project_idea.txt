@@ -1,0 +1,35 @@
+● who are the users of technology? --> user identification --> identifica i possibili clienti per una 
+determinata industria tecnologica (chi comprerebbe/ pagherebbe per i miei prodotti relativi a questa tecnologia?)
+● Which are the main topics and themes in documents related to technology? --> topic modeling --> dati i 
+documenti, estrarre i topic principali
+● Is there any sentiment related to technology? --> sentiment analysis 
+● Which are the main topics of AI applications in management? --> MIT Sloan
+management review papers --> analizza i paper in questione e trova gli argomenti principali
+● Do word embedding work well for technologies? Explore the similarity between
+technologies and asses their quality --> mele? pere? banane? come misurare la qualità? Un modo è appunto 
+in base alla loro similarità media con tutte le altre/ quelle più simili....
+● Can you identify trends of AI applications? --> si usano gli utenti: social networks post (Twitter), si può usare
+banalmente la frequenza in cui compaiono applicazioni di AI nei tweet, o anche nei paper
+● Can you carry out a competitive analysis, identifying the main players, their size and
+relative position? ---> quali aziende in ballo per una data applicazione/tecnologia?
+
+
+STEPS
+Fase 1
+-Scelta topic, introduzione e spiegazione obiettivo analisi
+- Analisi domande generali:
+	-risposte preliminari
+- Scelta approccio di analisi (GUARDARE BENE I DATI A DISPOSIZIONE)
+Fase 2
+-Processo di analisi:
+	-eventuale (serve sicuro) preprocessing
+	-scelta della pipeline
+	-scelta tool
+	- FASE DI NLP (DESCRIVERE STEP BY STEP)
+	-post produzione ---> clustering? classification?
+	-analisi risultati ottenuti
+Fase 3
+-Rispondi alle domande:
+	-dati i risultati ottenuti, rispondi e discuti i risulati
+	- analisi di marketing sul topic scelto in base ai risultati
+- scrivere documentazione + slide

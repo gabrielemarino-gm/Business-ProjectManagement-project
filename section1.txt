@@ -1,0 +1,48 @@
+TOPIC: Image processing: Face Recognition
+
+- Analisi domande generali:
+	-risposte preliminari e definizione obiettivi
+
+● who are the users of technology? 
+	--> identificazione utenza (singoli e community): identificare parole chiave argomento
+	e prendere le frasi (fino al punto "."; in pipeline avremo tipo stemming -> lemmatization), 
+	prendere parole che sono POS = subj o obj --> spacy; per fare questo è bene usare come keyword tutti i prodotti
+	di interesse e relative aziende (almeno quelle grosse) 
+
+● Which are the main topics and themes in documents related to technology?
+	Molto similmente a prima
+
+{
+	(X) ● Is there any sentiment related to technology? --> trovare le opinioni (tweet); esempio: punteggiatura, emoji,
+ 	aggettivi...
+}
+
+● Which are the main topics of AI applications in management? 
+	influenze della tecnologia nell'industria--> trovarla cercando frasi che parlino di guadagni, eccetera, vendite,
+	investimenti, aste
+
+{
+	(X)
+	● Do word embedding work well for technologies? 
+	Explore the similarity between technologies and asses their quality 
+	Testare come tecnologie simili su questo ambito funzionino bene insieme --> similarity tra le varie tecnologie di
+	image processing --> si può clusterizzare oggetti simili (DBSCAN?) e misurare la qualità del clustering:
+	elbow method --> numero di cluster "ideale" (se esistono cluster naturali)
+	silhouette : per vedere quanto è buono il cluster 
+}
+
+{
+	● Can you identify trends of AI applications? 
+	Vediamo da twitter quanto ci possano essere trend  (frequenza in cui compaiono i termini delle tecnologie)
+}
+
+● Can you carry out a competitive analysis, identifying the main players, their size and
+relative position? 
+Identificare aziende e relativi guadagni/investimenti --> i main actors sono quelli più citati e che guadagnano
+/investono di più nell'acquisto/produzione/distribuzione/sviluppo di queste tecnologie 
+
+● Cosa vogliamo ottenere?
+Vogliamo capire come queste tecnologie influenzino il mercato, gli effeti di rete, i prinicpali competitor e gli
+usi principali che spingono un'azienda ad investire/sviluppare queste tecnologie e capire come sarebbe 
+possibile trovare un modo di implementarle e crearci un business
+- Scelta approccio di analisi (GUARDARE BENE I DATI A DISPOSIZIONE)
